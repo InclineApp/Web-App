@@ -1,0 +1,126 @@
+/*testoverride.css*/
+html,
+body {
+    background: #F6F7F8;
+    font-family: "helveticaneue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 100vh;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+a:hover {
+    opacity: .75
+}
+
+.logo {
+    display: inline-block;
+    background-color: transparent;
+    font-family: "helveticaneue-light", Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #4E5664
+}
+
+.logo a {
+    text-decoration: none;
+    color: #4E5664
+}
+
+.logo span {
+    vertical-align: top;
+    line-height: 24px
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    margin-right: 8px
+}
+
+#main-content {
+    text-align: center;
+    min-height: 100vh;
+    position: relative
+}
+
+#middle-content {
+    position: absolute;
+    top: 50%;
+    height: 10em;
+    margin-top: -2em;
+    text-align: center;
+    width: 100%
+}
+
+#top-content {
+    position: absolute;
+    top: 0%;
+    height: 10em;
+    margin-top: 8em;
+    text-align: center;
+    width: 100%
+}
+
+#bottom-content {
+    position: absolute;
+    display: block;
+    text-align: center;
+    width: 100%;
+    bottom: 10px
+}
+
+#arrow {
+    -webkit-animation: inf-bounce 1.5s infinite;
+    animation: inf-bounce 1.5s infinite
+}
+
+#arrow .arrow-icon {
+    width: 25px;
+    height: 14px;
+    cursor: pointer;
+    padding: 10px 10px
+}
+
+a.download {
+    display: inline-block;
+    width: 210px;
+    height: 48px;
+    border: 1px solid #5B93FC;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0px 8px 24px 8px;
+    color: #5B93FC;
+    vertical-align: middle;
+    line-height: 48px;
+    text-decoration: none
+}
+
+a.download:hover {
+    opacity: 1;
+    background-color: #5B93FC;
+    color: #fff
+}
+
+a.download-disabled {
+    display: none;
+    cursor: not-allowed;
+    height: 32px;
+    border: 1px solid #ccc;
+    margin: 0px 0 10px 0;
+    font-weight: 200;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #ccc;
+    line-height: 32px;
+    text-decoration: none
+}
+
+

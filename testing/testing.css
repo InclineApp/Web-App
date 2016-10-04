@@ -225,7 +225,7 @@ a:hover {
     display: block
 }
 
-#site-header {
+/*# {
     position: fixed;
     top: 0;
     left: 0;
@@ -235,9 +235,9 @@ a:hover {
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.10);
     -webkit-backdrop-filter: blur(20px);
     z-index: 2
-}
+}*/
 
-.header-wrapper {
+/*.header-wrapper {
     max-width: 100%;
     margin: 18px auto 0 auto;
     padding: 0 22px;
@@ -258,7 +258,7 @@ a:hover {
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap
-}
+}*/
 
 .logo {
     display: inline-block;
