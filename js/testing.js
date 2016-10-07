@@ -1,16 +1,10 @@
-// // testing.js
-// function popUp(url, title, w, h) {
-//     var externalLeft = window.screenLeft != undefined ? window.screenLeft : screen.left;
-//     var externalTop = window.screenTop != undefined ? window.screenTop : screen.top;
+var viewportWidth = $(window).width();
+var viewportHeight = $(window).height();
 
-//     width = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width;
-// 	height = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
+// var videosize = viewportHeight - 50px;
 
-//     var left = ((width / 2) - (w / 2)) + externalLeft;
-//     var top = ((height / 2) - (h / 2)) + externalTop;
-//     var newWindow = window.open(url, title, 'scrollbars=yes, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
+alert('viewport width is: '+ viewportWidth + ' and viewport height is:' + viewportHeight);
 
-//     if (window.focus) {
-//         newWindow.focus();
-//     }
-// }
+$(window).resize(function() {
+
+});

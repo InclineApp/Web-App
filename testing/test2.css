@@ -1,0 +1,58 @@
+/*general element styles*/
+
+* {
+	border-radius: 0px;
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: 700;
+}
+
+object {
+	width: 94px;
+	height: 22px;
+}
+
+/*specific class and id styles*/
+
+/*nav styles*/
+
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #1B98E0;
+}
+
+.navbar-toggle {
+	border-radius: 0px;
+}
+
+#signin-btn {
+	background-color: #1B98E0;
+
+}
+
+#signin-btn a {
+	color: #ffffff;
+}
+
+#signin-btn:hover {
+	opacity: .8;
+}
+
+/*end nav styles*/
+
