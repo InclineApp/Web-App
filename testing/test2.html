@@ -31,7 +31,7 @@
           </button>
           <!-- ends the collapsable menu -->
           <a class="navbar-brand" href="#">
-            <object data="../images/logo.svg" type="svg"></object>
+            <object id="logo" data="../images/logo.svg" type="svg"></object>
           </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse text-center">
@@ -43,17 +43,51 @@
           </div><!--/.nav-collapse -->
         </div>
       </nav>
+      <!-- start main content of body -->
+      <!-- start intro section 'what we do' -->
       <div class="container">
-        <div class="row">
-          <div class="text-center">
-            <h1>What We Do. <br> Simply Put.</h1>
+        <section id="intro">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <div class="text-center">
+                <h1>What We Do. <br> Simply Put.</h1>
+              </div>
+              <div id="diagram" class="center-block">
+                <img class="img-responsive" src="../images/diagram.png" alt="diagram">
+              </div>
+              <p class="lead text-left"><a class="blue-text">Incline Fitness</a> provides a tool that allows teachers and students to enter and generate reports for Presidental Fitness data. This tool is state of the art and the best part is, its completley free for students and teachers.</p>
+              <div class="cta-btn text-center">
+                <button type="button" class="btn">
+                Learn More
+                </button>
+              </div>
+              <p class="small text-center text-muted">All Rights Reserved - <a class="link-color" href="#">Isophex LLC</a> - 2016</p>
+
+            </div>
+            <div class="sticky-lower">
+              <object id="arrow" data="../images/arrow.svg" type=""></object>
+            </div>
           </div>
-          <div id="diagram">
-            <img class="img-responsive center-block" src="../images/diagram.png" alt="diagram">
+        </section>
+        
+        <!-- end intro section 'what we do' -->
+        <!-- start intro section 'What it does' -->
+        <section id="middle">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <div class="text-center">
+                <h1>What it Does. <br> How it Works.</h1>
+              </div>
+              <p class="lead text-center"><a class="blue-text">Incline Fitness</a> is both an IOS application and a web service. The app allows students to enter fitness data into the system and the web service allows teachers and students to view reports regarding the fitness data entered.</p>
+              <div id="iphone" class="center-block">
+                <img class="img-responsive center-block" src="../images/iphone.png" alt="iphone">
+              </div>
+              <p class="lead text-center">The <a class="blue-text">IOS app</a> is designed to be easily integrated with high schools and other educations departments. It was built to be intuative and simple. Students can enter their data efficiently and often.</p>
+            </div>
+                
           </div>
-          <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>body &gt; .container</code>.</p>
-          <p>Back to <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p>
-        </div>
+        </section>
+        
       </div>
       
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
