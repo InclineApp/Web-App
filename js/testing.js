@@ -7,3 +7,7 @@
 // })
 
 // $(window).resize(); //on page load
+
+$(".submit").on('click', function(){
+alert('Thanks so much for contacting us!');
+});

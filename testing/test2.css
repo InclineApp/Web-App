@@ -1,4 +1,11 @@
-/*general element styles*/
+/*Jake Schroeder
+9/12/16*/
+
+/*override.css*/
+
+
+
+/*------------------------------------------ global element styles*/
 
 * {
 	border-radius: 0px;
@@ -8,6 +15,7 @@ html,body{
 /*	width: 100%;
 	height: 100%;*/
   	min-height: 100vh;
+  	position: relative;
 }
 
 body {
@@ -15,7 +23,7 @@ body {
 	font-family: 'Lato', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
-	position: relative;
+	/*position: relative;*/
 }
 
 section {
@@ -32,13 +40,13 @@ h1 {
 
 
 p {
-/*	margin-left: 15px;
-	margin-right: 15px;*/
+
 }
 
 a {
 	text-decoration: none;
-	color: #1B98E0;
+	color: #333;
+	cursor: pointer;
 }
 
 a:hover {
@@ -54,10 +62,20 @@ a:active {
 	color: #1B98E0;
 }
 
+label {
+	float: left;
+	font-weight: 400;
+}
 
-/*specific class and id styles*/
+/*------------------------------------------ end global element styles*/
 
-/*nav styles*/
+
+
+/*------------------------------------------ nav styles*/
+
+.navbar-default .navbar-nav > li > a {
+	color: #333;
+}
 
 #logo {
 	width: 94px;
@@ -80,10 +98,6 @@ a:active {
 	background-color: #13293D;
 }
 
-/*.navbar-default .navbar-toggle .icon-bar:hover {
-	opacity: .8;
-}
-*/
 .navbar-toggle {
 	border-radius: 0px;
 }
@@ -101,9 +115,12 @@ a:active {
 	opacity: .8;
 }
 
-/*end nav styles*/
+/*------------------------------------------ end nav styles*/
 
-/*body styles*/
+
+
+/*------------------------------------------ body styles*/
+
 
 .sticky-lower {
 	display: none;
@@ -113,6 +130,7 @@ a:active {
 .text-muted {
 	color: #BCBCBC;
 	font-weight: 300;
+	font-size: 14px;
 }
 
 .blue-text {
@@ -129,12 +147,27 @@ a:active {
 	padding-bottom: 20px;
 }
 
+#avatar {
+	margin: 15px;
+	padding-bottom: 20px;
+}
+
+#graph {
+	margin: 15px;
+	padding-bottom: 20px;
+}
+
+#clock {
+	margin: 15px;
+	padding-bottom: 20px;
+}
+
 #iphone {
 	padding-bottom: 20px;
 }
 
 .lead {
-	text-align: left;
+	
 	margin-left: 0px;
 	margin-right: 0px;
 	font-weight: 400;
@@ -142,8 +175,9 @@ a:active {
 }
 
 .btn {
+	text-align: center;
 	width: 100%;
-	height: 48px;
+	height: 56px;
 	border: 1px solid #1B98E0;
 	border-radius: 0px;
 	font-size: 16px;
@@ -161,20 +195,57 @@ a:active {
 	color: #ffffff;
 }
 
+.form-control {
+	height: 42px;
+	border: 1px solid #4E5F6E;
+	border-radius: 0px;
+
+}
+
+#messagecontent {
+	resize: none;
+	height: 125px;
+}
+
+#submit {
+	margin-top: -16px;
+	width: 100%;
+}
+
+#contact {
+	padding-bottom: 50px;
+}
+
+/*------------------------------------------ end body styles*/
 
 
-/*media queries*/
 
-/*@media only screen and (min-width : 320px) {
+/*------------------------------------------ footer styles*/
 
-	section {
-		padding-bottom: 0px;
-	}
-
-
+.footer {
+	/*position: absolute;*/
+	box-shadow: 0px 1px 6px rgba(36,123,160, .40);
+	/*bottom: 0;*/
+	width: 100%;
+	min-height: 50px;
+	background-color: #f8f8f8;
 	
+}
 
-}*/
+#footer-copy {
+	text-align: center;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 0px;
+}
+
+/*------------------------------------------ end footer styles*/
+
+
+
+
+/*------------------------------------------ media queries*/
 
 @media only screen and (min-width : 480px) {
 
@@ -200,6 +271,7 @@ a:active {
 @media only screen and (min-width : 768px) {
 
 	#intro {
+		padding-bottom: 20px;
 		position: relative;
 		min-height: 100vh;
 		text-align: center;
@@ -291,6 +363,8 @@ a:active {
 	}
 
 }
+
+/*------------------------------------------ end media queries*/
 
 
 
