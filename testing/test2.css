@@ -131,7 +131,7 @@ label {
 }*/
 
 .img-responsive {
-	max-width: 80%;
+	max-width: 70%;
 }
 
 .sticky-lower {
@@ -203,9 +203,20 @@ label {
 	background-color: transparent;
 }
 
+.btn:focus {
+	background-color: transparent;
+	border: 1px solid #1B98E0;
+	color: #1B98E0;
+}
+
 .btn:hover {
 	background-color: #1B98E0;
 	color: #ffffff;
+}
+
+.btn:active {
+	background-color: transparent;
+	/*color: #ffffff;*/
 }
 
 .form-control {
@@ -274,7 +285,7 @@ label {
 		font-size: 46px;
 	}
 
-
+	
 	
 
 }
@@ -318,6 +329,10 @@ label {
 		
 	}
 
+	.img-responsive {
+	max-width: 80%;
+	}
+
 /*	#middle {
 		position: relative;
 		height: 100vh;
@@ -358,7 +373,9 @@ label {
 		height: 28px;
 		cursor: pointer;
 		/*padding: 10px 10px;*/
-}
+	}
+
+
 
 
 }
@@ -408,6 +425,27 @@ label {
 /*------------------------------------------ end media queries*/
 
 
+
+/*testing stuff here*/
+
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
 
 
 
