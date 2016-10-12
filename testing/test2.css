@@ -23,11 +23,12 @@ body {
 	font-family: 'Lato', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
+	color: #4E5F6E;
 	/*position: relative;*/
 }
 
 section {
-	padding-bottom: 20px;
+	/*padding-bottom: 20px;*/
 }
 
 h1 {
@@ -65,6 +66,10 @@ a:active {
 label {
 	float: left;
 	font-weight: 400;
+}
+
+ {
+	max-width: 80%;
 }
 
 /*------------------------------------------ end global element styles*/
@@ -121,6 +126,13 @@ label {
 
 /*------------------------------------------ body styles*/
 
+/*.smaller-img {
+	max-width: 80%;
+}*/
+
+.img-responsive {
+	max-width: 80%;
+}
 
 .sticky-lower {
 	display: none;
@@ -143,7 +155,8 @@ label {
 }
 
 #diagram{
-	margin: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 	padding-bottom: 20px;
 }
 
@@ -213,8 +226,12 @@ label {
 }
 
 #contact {
-	padding-bottom: 50px;
+	padding-bottom: 20px;
 }
+
+/*.textarea:focus {
+	border-color: green;
+}*/
 
 /*------------------------------------------ end body styles*/
 
@@ -239,6 +256,10 @@ label {
 	padding-bottom: 15px;
 	margin-bottom: 0px;
 }
+
+/*#navbar a {
+	font-size: 12px;
+}*/
 
 /*------------------------------------------ end footer styles*/
 
@@ -267,14 +288,34 @@ label {
 
 }
 */
+
+@media only screen and (max-height : 820px) {
+
+	#arrow {
+		display: none;
+	}
+
+}
+
+
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
 
 	#intro {
-		padding-bottom: 20px;
+		/*padding-bottom: 20px;*/
 		position: relative;
 		min-height: 100vh;
 		text-align: center;
+	}
+
+	#middle {
+		padding-bottom: 50px;
+
+	}
+
+	#contact, #future {
+		padding-bottom: 100px;
+		
 	}
 
 /*	#middle {
