@@ -266,6 +266,10 @@ label {
 	padding-bottom: 20px;
 }
 
+.panel-group {
+	padding-top: 30px;
+}
+
 .panel-title {
 
 	text-align: center;
@@ -282,11 +286,12 @@ label {
 /*------------------------------------------ footer styles*/
 
 .footer {
+
 	/*position: absolute;*/
-	box-shadow: 0px 1px 6px rgba(36,123,160, .40);
-/*	bottom: 0;*/
+	/*bottom: 0;*/
 	width: 100%;
 	min-height: 50px;
+	box-shadow: 0px 1px 6px rgba(36,123,160, .40);
 	background-color: #f8f8f8;
 	
 }
@@ -299,10 +304,10 @@ label {
 	margin-bottom: 0px;
 }
 
-#stay-bottom {
+/*#stay-bottom {
 	bottom: 0;
 	position: absolute;
-}
+}*/
 
 /*#navbar a {
 	font-size: 12px;
@@ -326,15 +331,6 @@ label {
 
 }
 
-/*@media only screen and (max-width : 480px) {
-
-	.btn {
-		width: 220px;
-		height: 48px;
-	}
-
-}
-*/
 
 @media only screen and (max-height : 820px) {
 
@@ -342,13 +338,14 @@ label {
 		display: none;
 	}
 
+
 }
 
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
 
-	#intro, #future {
+	#intro, #future,#main-content {
 		/*padding-bottom: 20px;*/
 		position: relative;
 		min-height: 100vh;
@@ -445,6 +442,8 @@ label {
 		font-size: 26px;
 	}
 
+
+
 }
 
 /* Large Devices, Wide Screens */
@@ -465,6 +464,8 @@ label {
 	.btn {
 		font-size: 26px;
 	}
+
+
 
 }
 
