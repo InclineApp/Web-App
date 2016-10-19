@@ -185,7 +185,7 @@ section {
     transform: translateX(-50%);
     height: 1.8rem;
     width: 2.7rem;
-    background: url('assets/meida-img/arrow.svg');
+    background: url(assets/media-img/arrow.svg);
     color: blue;
     background-size: contain;
     background-repeat: no-repeat;
