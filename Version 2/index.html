@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>Test Env</title>
         <!-- Bootstrap CSS -->
@@ -46,12 +46,12 @@
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-                    <a class="navbar-brand" href="#"> <img src="assets/media-img/logo-nav.svg"> </a>
+                    <a class="navbar-brand" href="index.html"> <img src="assets/media-img/logo-nav.svg"> </a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse text-center">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#about">about</a></li>
-                        <li><a href="#contact">support</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="support.html">support</a></li>
                         <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">entry <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Body Composition</a></li>
@@ -67,91 +67,84 @@
                 </div>
             </div>
         </nav>
+
+        <!-- start actual main content -->
         
         <div class="main onepage-wrapper">
             <section class="ops-section active">
-                <div class="slide-content">
-                    
-                    <!-- <div class="row">
-                        <div class="col-md-8 col-md-offset-2"> -->
-                            <div class="text-center">
-                            <h1>what we do. <br> simply put.</h1> </div>
-                            <div id="diagram"> <img class="img-responsive center-block" src="assets/media-img/diagram.png" alt="diagram"> </div>
-                            <p class="lead text-center"><a class="blue-text">Incline Fitness</a> provides a tool that allows teachers and students to enter and generate reports for Presidental Fitness data. This tool is state of the art and the best part is, its completley free for students and teachers.</p>
-                            <div class="cta-btn text-center">
-                                <a href="#">
-                                    <button type="button" class="btn">Learn More</button>
-                                </a>
-                            </div>
-                            <p class="small text-center text-muted">All Rights Reserved - <a class="link-color" href="#">Isophex LLC</a> - 2016</p>
-                  <!--       </div>
-                    </div> -->
-                </div>
-                <a class="scroll-down"><span class="hidden">Scroll down</span></a>
+                <!-- <div class="wrapper"> -->
+                    <div class="slide-content">
+                        <div class="text-center">
+                        <h1>What We Do. <br> Simply Put.</h1> </div>
+                        <div id="diagram"> <img class="img-responsive center-block" src="assets/media-img/diagram.png" alt="diagram"> </div>
+                        <p class="lead text-center"><a class="blue-text">Incline Fitness</a> provides a tool that allows teachers and students to enter and generate reports for Presidental Fitness data. This tool is state of the art and the best part is, its completley free for students and teachers.</p>
+                        <div class="cta-btn text-center">
+                            <a href="support.html">
+                                <button type="button" class="btn">Learn More</button>
+                            </a>
+                        </div>
+                        <p class="small text-center text-muted">All Rights Reserved - <a class="link-color" href="#">Isophex LLC</a> - 2016</p>
+                    </div>
+                <!-- </div> -->
+                <!-- <a class="scroll-down"><span class="hidden">Scroll down</span></a> -->
             </section>
             
             <section class="ops-section">
                 <div class="slide-content">
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2">
-                            <div class="text-center">
-                                <h1>What it Does. <br> How it Works.</h1>
-                            </div>
-                            <p class="lead text-center"><a class="blue-text">Incline Fitness</a> is both an IOS application and a web service. The app allows students to enter fitness data into the system and the web service allows teachers and students to view reports regarding the fitness data entered.</p>
-                            <div id="iphone" class="center-block">
-                                <img class="img-responsive center-block" src="assets/media-img/iphone.png" alt="iphone">
-                            </div>
-                            <p class="lead text-center">The <a class="blue-text">IOS app</a> is designed to be easily integrated with high schools and other educations departments. It was built to be intuative and simple. Students can enter their data efficiently and often.</p>
-                        </div>
-                    </div>
                     
-                </section>
-                
-                <section class="ops-section">
-                    <div class="slide-content">
-                        <div class="row">
-                            <div class="col-md-8 col-md-offset-2">
-                                <div class="text-center">
-                                    <h1>Interested?<br>Contact Us.</h1>
-                                </div>
-                                <p class="lead text-center">We would be happy to answer any questions that are not listed in the <a href="" class="link-color">support</a> page. We look forward to speaking to you!</p>
-                                
-                                <form class="text-center">
-                                    <div class="form-group">
-                                        <label for="firstnameinput">First Name</label>
-                                        <input type="text" class="form-control" id="firstnameinput" placeholder="John">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="lastnameinput">Last Name</label>
-                                        <input type="text" class="form-control" id="lastnameinput" placeholder="Doe">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="emailinput">Email</label>
-                                        <input type="email" class="form-control" id="emailinput" placeholder="jdoe@awesomemail.com">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="messagecontent">Message</label>
-                                        <textarea class="form-control" rows="3" id="messagecontent" placeholder="Hey man I love this site!"></textarea>
-                                        
-                                    </div>
-                                    <button type="button" class="btn btn-default" id="submit" data-toggle="modal" data-target="#myModal">
-                                    Submit
-                                    </button>
-                                </form>
-                            </div>
-                        </div>
+                    <div class="text-center">
+                        <h1>What it Does. <br> How it Works.</h1>
                     </div>
-                </section>
-            </div>
+                    <p class="lead text-center"><a class="blue-text">Incline Fitness</a> is both an IOS application and a web service. The app allows students to enter fitness data into the system and the web service allows teachers and students to view reports regarding the fitness data entered.</p>
+                    <div id="iphone" class="center-block">
+                        <img class="img-responsive center-block" src="assets/media-img/iphone.png" alt="iphone">
+                    </div>
+                    <p class="lead text-center">The <a class="blue-text">IOS app</a> is designed to be easily integrated with high schools and other educations departments. It was built to be intuative and simple. Students can enter their data efficiently and often.</p>
+                    
+                </div>
+                
+            </section>
             
-            
-            
-            <ul class="onepage-pagination" style=""><li><a data-index="1" href="#1" class="active"></a></li><li><a data-index="2" href="#2"></a></li><li><a data-index="3" href="#3"></a></li><li><a data-index="4" href="#4"></a></li></ul>
-            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-            <!-- Include all compiled plugins (below), or include individual files as needed -->
-            <script src="assets/js/bootstrap.min.js"></script>
-            <script src="assets/js/jquery.onepage-scroll.js"></script>
-            <script src="assets/js/global.js"></script>
-        </body>
-    </html>
+            <section class="ops-section">
+                <div class="slide-content">
+                    
+                    <div class="text-center">
+                        <h1>Interested?<br>Contact Us.</h1>
+                    </div>
+                    <p class="lead text-center">We would be happy to answer any questions that are not listed in the <a href="" class="link-color">support</a> page. We look forward to speaking to you!</p>
+                    
+                    <form class="text-center">
+                        <div class="form-group">
+                            <label for="firstnameinput">First Name</label>
+                            <input type="text" class="form-control" id="firstnameinput" placeholder="John">
+                        </div>
+                        <div class="form-group">
+                            <label for="lastnameinput">Last Name</label>
+                            <input type="text" class="form-control" id="lastnameinput" placeholder="Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="emailinput">Email</label>
+                            <input type="email" class="form-control" id="emailinput" placeholder="jdoe@awesomemail.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="messagecontent">Message</label>
+                            <textarea class="form-control" rows="3" id="messagecontent" placeholder="Hey man I love this site!"></textarea>
+                            
+                        </div>
+                        <button type="button" class="btn btn-default" id="submit" data-toggle="modal" data-target="#myModal">
+                        Submit
+                        </button>
+                    </form>
+                    
+                </div>
+            </section>
+        </div>
+        <ul class="onepage-pagination" style=""><li><a data-index="1" href="/what-we-do" class="active"></a></li><li><a data-index="2" href="/middle-shit"></a></li><li><a data-index="3" href="/contact-thingy"></a></li><li><a data-index="4" href="#4"></a></li></ul>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.onepage-scroll.js"></script>
+        <script src="assets/js/global.js"></script>
+    </body>
+</html>

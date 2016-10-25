@@ -1,10 +1,10 @@
 /*custom styles*/
 
 body,html {
-    font-size: 93.75%;
+    font-size: 72.9166667%;
     height: 100%;
     width: 100%;
-
+    overflow: hidden;
 }
 
 body {
@@ -14,9 +14,9 @@ body {
 
 h1 {
     color: #13293D;
-    font-size: 8vw;
+    font-size: 6rem;
     font-weight: 700;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     margin: 2.7rem 0 0;
 }
 
@@ -24,6 +24,26 @@ label {
     float: left;
     font-weight: 400;
 }
+
+section {
+    overflow: hidden;
+    text-align: center;
+}
+
+#Avatar, #Clipboard, #Clock {
+    padding-bottom: 20px;
+    width: 35%;
+    height: auto;
+/*    width: 200%;
+    height: auto;*/
+}
+
+#Clipboard {
+    width: 30%;
+    height: auto;
+}
+
+
 
 /*
 .wrapper {
@@ -40,6 +60,10 @@ label {
     margin: 0 auto; 
     overflow: hidden;
 }*/
+
+.text-colored {
+    color: #1B98E0;
+}
 
 
 
@@ -71,6 +95,10 @@ label {
 }
 
 
+/*.wrapper {
+    resize: both;
+    position: relative;
+}*/
 
 .onepage-pagination li a.active::before {
     width: 1.5rem;
@@ -114,6 +142,11 @@ label {
     overflow: hidden;
 }
 
+.wrapper {
+    padding-top: 50px;
+
+}
+
 
 .slide-content {
     top: 50%;
@@ -123,6 +156,12 @@ label {
     margin-right: auto;
     position: relative;
     padding: 0 1.8rem;
+}
+
+.slide-content::after {
+    clear: both;
+    content: "";
+    display: table;
 }
 
 #diagram {
@@ -248,9 +287,9 @@ label {
     .lead {
         font-size: 1.33rem;
     }
-    h1 {
+    /*h1 {
         font-size: 14vw;
-    }
+    }*/
 /*    .small {
         font-size: 4vw;
     }*/
@@ -277,10 +316,20 @@ label {
 
 @media(min-width:37.5em) {
 
+    html {
+        font-size: 76.7185%;
+    }
+
     h1 {
       margin: 2.7rem 0 .9rem;  
     }
     
+}
+
+@media(min-width: 60.625em) {
+    html {
+        font-size: 93.75%;
+    }
 }
 
 /*testing */
