@@ -1,0 +1,82 @@
+/*custom styles*/
+
+body, html {
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+body {
+
+}
+
+.masthead {
+    height: 100%;
+    background-color: skyblue;
+    overflow: hidden;
+}
+
+.masthead .intro-content {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
+
+
+.text-colored {
+    color: #1B98E0;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+
+
+.navbar-default {
+    
+}
+
+.dropdown-menu {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-right: -1px;
+}
+
+.dropdown-menu li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dropdown-menu .divider {
+    margin: 0px 0;
+}
+
+#sign-in a {
+    border-left: 1px solid #e7e7e7;
+}
+
+#sign-in a:hover {
+    background-color: #e7e7e7;
+}
+
+@media only screen and (min-width : 768px) {
+
+    #navbar-container {
+        padding-right: 0px;
+    }   
+
+}
+
+
+
+
+
+
+
+
+
