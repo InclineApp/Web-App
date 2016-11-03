@@ -152,8 +152,9 @@ section {
     top: 50%;
     transform: translateY(-50%);
     max-width: 60em;
-    margin-left: auto;
-    margin-right: auto;
+/*    margin-left: auto;
+    margin-right: auto;*/
+    left: 50%;
     position: relative;
     padding: 0 1.8rem;
 }
@@ -171,7 +172,6 @@ section {
 }
 
 
-
 .btn {
     text-align: center;
     width: 100%;
@@ -187,6 +187,7 @@ section {
     padding: 0px;
     background-color: transparent;
 }
+
 
 .btn:focus {
     background-color: transparent;
@@ -247,6 +248,8 @@ section {
 
 #iphone {
     padding-bottom: 20px;
+    width: 40%;
+    height: auto;
 }
 
 #messagecontent {
@@ -351,5 +354,6 @@ section {
     /* To center horizontally */
     margin: 0 auto;
 }
+
 
 

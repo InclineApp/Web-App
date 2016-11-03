@@ -11,6 +11,7 @@
 		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 		<!-- <link rel="stylesheet" href="assets/css/onepage-scroll.css"> -->
 		<!-- Custom CSS -->
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 		<link rel="stylesheet" href="assets/css/override.css">
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,47 +21,109 @@
 		<![endif]-->
 	</head>
 	<body>
-
-		<div class="masthead">
-			<section class="intro-content">
-				<h1 class="mute">Video Here</h1>
+		<div class="masthead text-center">
+			
+			<!-- <section class="intro-content"> -->
+			
+			<div class="video-container">
+				<div class="overlay"></div>
+				<video id="video" src="assets/media-img/test-video.mp4" autoplay loop>
+				</video>
+				<div class="centerd-content">
+					<img id="byIsophex" src="assets/media-img/InclineLogo(white).png" alt="logo">
+					<h1 id="intro-text">The Only Presidental Fitness Tracker.</h1>
+				</div>
+			</div>
+			<!-- </section> -->
+		</div>
+		
+		<div class="nav-wrapper">
+			<div id="nav">
+				<nav class="navbar navbar-default navbar-height navbar-static-top">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="index.html"> <img src="assets/media-img/logo-nav.svg"> </a>
+						</div>
+						<div id="navbar" class="navbar-collapse collapse">
+							
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="#">about</a></li>
+								<li><a href="#">support</a></li>
+								<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">entry <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Body Composition</a></li>
+									<li role="separator" class="divider"></li>
+									<li><a href="#">Cardio Fitness</a></li>
+									<li role="separator" class="divider"></li>
+									<li><a href="#">Flexibility</a></li>
+									<li role="separator" class="divider"></li>
+									<li><a href="#">Strength &amp; Endurance</a></li>
+								</ul>
+							</li>
+							<li id="sign-in"><a href="#">sign in</a></li>
+						</ul>
+						</div><!--/.nav-collapse -->
+					</div>
+				</nav>
+			</div>
+		</div>
+		<div class="page-content">
+			<section class="full-section shorter-section">
+				<div class="centerd-content">
+					<h1>What We Do. <br> Simply Put.</h1>
+					<div id="diagram" class=""> <img class="mobile-img img-responsive center-block" src="assets/media-img/diagram.png" alt="diagram"> </div>
+					<p><span class="text-colored">Incline Fitness</span> provides a tool that allows teachers and students to enter and generate reports for Presidental Fitness data. This tool is state of the art and the best part is, its completley free for students and teachers.</p>
+					<div class="cta-btn text-center">
+						<a href="support.html">
+							<button type="button" class="btn">Learn More</button>
+						</a>
+					</div>
+					<p class="small text-muted">All Rights Reserved - <a class="link-color" href="#">Isophex LLC</a> - 2016</p>
+				</div>
+				
+				
+			</section>
+			<section>
+				<div id="middle" class="full-section">
+					<div id="centerd-content" class="centerd-content">
+						<h1>What it Does. <br> How it Works.</h1>
+						<div class="row">
+							<div class="col-md-4 text-center">
+								<div id="iphone" class="center-block">
+									<img class="img-responsive center-block" src="assets/media-img/iphone.png" alt="iphone">
+								</div>
+								<p class="lead text-center">The <a class="text-colored">IOS app</a> is designed to be easily integrated with high schools and other educations departments.</p>
+							</div>
+							<div class="col-md-4 text-center">
+								<div id="iphone" class="center-block">
+									<img class="img-responsive center-block" src="assets/media-img/iphone.png" alt="iphone">
+								</div>
+								<p class="lead text-center">The <a class="text-colored">IOS app</a> is designed to be easily integrated with high schools and other educations departments.</p>
+							</div>
+							<div class="col-md-4 text-center">
+								<div id="iphone" class="center-block">
+									<img class="img-responsive center-block" src="assets/media-img/iphone.png" alt="iphone">
+								</div>
+								<p class="lead text-center">The <a class="text-colored">IOS app</a> is designed to be easily integrated with high schools and other educations departments.</p>
+							</div>
+						</div>
+					</div>
+				</div>
 			</section>
 		</div>
 		
-		<nav id="navbar" class="navbar navbar-default navbar-static">
-			<div class="container-fluid" id="navbar-container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-					<a class="navbar-brand" href="index.html"> <img src="assets/media-img/logo-nav.svg"> </a>
-				</div>
-				<div id="navbar" class="navbar-collapse collapse text-center">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="about.html">about</a></li>
-						<li><a href="support.html">support</a></li>
-						<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">entry <span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li><a href="#">Body Composition</a></li>
-							<li role="separator" class="divider"></li>
-							<li><a href="#">Cardio Fitness</a></li>
-							<li role="separator" class="divider"></li>
-							<li><a href="#">Flexibility</a></li>
-							<li role="separator" class="divider"></li>
-							<li><a href="#">Strength & Endurance</a></li>
-						</ul>
-						<li id="sign-in"><a href="#about">sign in</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-		
 		
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="assets/js/bootstrap.min.js"></script>
 		<!-- <script src="assets/js/jquery.onepage-scroll.js"></script> -->
-		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 		<script src="assets/js/global.js"></script>
-
 	</body>
 </html>

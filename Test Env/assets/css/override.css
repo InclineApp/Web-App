@@ -1,51 +1,135 @@
 /*custom styles*/
 
+* {
+    border-radius: 0px;
+}
+
 body, html {
-  height: 100vh;
-  overflow-x: hidden;
+    background: none;
 }
 
 body {
+    color: #292f33;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+}
 
+section {
+    position: relative;
+    height: 100vh;
+
+}
+
+video {
+    object-fit: cover;
+    position: relative;
+}
+
+li a {
+    font-size: .75em;
+}
+
+p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+h1 {
+    font-size: 4em;
+    color: #13293D;
+    font-weight: 400;
+}
+
+
+
+.page-content {
+    text-align: center;
 }
 
 .masthead {
     height: 100%;
     background-color: skyblue;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
-.masthead .intro-content {
-    text-align: center;
+#intro-text {
+    color: #fff;
+}
+
+
+.overlay {
+    background-color: #000;
+    position: absolute;
+    opacity: .44;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.video-container {
     position: relative;
+    overflow: hidden; /* This fixes the cover fit bug in chrome */
+    
+}
+
+.centerd-content {
+    position: absolute;
     top: 50%;
     left: 50%;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
+    transform: translate(-50%, -50%);
+    max-width: 45em;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+
 }
+
+#byIsophex {
+    padding-bottom: 20px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    text-align: center;
+}
+
 
 
 .text-colored {
     color: #1B98E0;
 }
 
+.nav-wrapper {
+    min-height: 50px;
+}
+
+.navbar-height {
+    margin-bottom: 0px; 
+    border-width: 0; 
+}
+
+#nav.affix {
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+   /* padding-bottom: 50px;*/
+}
+
 .navbar {
     margin-bottom: 0px;
+    border-radius: 0px;
 }
 
-
-
-.navbar-default {
-    
-}
 
 .dropdown-menu {
     padding-top: 0px;
     padding-bottom: 0px;
     margin-right: -1px;
 }
+
 
 .dropdown-menu li > a {
     padding-top: 10px;
@@ -64,11 +148,168 @@ body {
     background-color: #e7e7e7;
 }
 
-@media only screen and (min-width : 768px) {
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
 
-    #navbar-container {
-        padding-right: 0px;
-    }   
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #13293D;
+}
+
+.navbar-toggle {
+    border-radius: 0px;
+}
+
+
+
+/*main body styles*/
+
+.btn {
+    text-align: center;
+    width: 100%;
+    height: 58px;
+    border: 1px solid #1B98E0;
+    border-radius: 0px;
+    font-size: 16px;
+    margin: 0px -4px 0px -4px;
+    color: #1B98E0;
+    vertical-align: middle;
+    line-height: 48px;
+    text-decoration: none;
+    padding: 0px;
+    background-color: transparent;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+
+.btn:focus {
+    background-color: transparent;
+    border: 1px solid #1B98E0;
+    color: #1B98E0;
+}
+
+.btn:hover {
+    background-color: #1B98E0;
+    color: #ffffff;
+}
+
+.btn:active {
+    background-color: transparent;
+    background-color: #1B98E0;
+    /*color: #ffffff;*/
+}
+
+.small {
+    font-size: .7em;
+}
+
+.shorter-section {
+    top: -50px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+    .masthead {
+        display: none;
+    }
+
+    #nav {
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    }
+
+/*    body {
+        height: 100%;
+    }
+
+    section {
+        position: relative;
+        height: 100%;
+
+    }*/
+
+
+}
+
+
+@media only screen and (min-width : 320px) {
+
+    body {
+        font-size: 1.5em;
+        overflow-x: hidden;
+    }
+    h1 {
+        font-size: 2.5em;
+    }
+    .mobile-img {
+        padding: 10px;
+    }
+
+    .small {
+        margin: 10px;
+    }
+
+
+    #iphone {
+        width: 30%;
+        height: auto;
+    }
+    
+}
+
+@media only screen and (min-width : 375px) {
+
+
+    body {
+        font-size: 1.75em;
+    }
+
+    h1 {
+        font-size: 2.75em;
+    }
+
+    .btn {
+        height: 68px;
+        margin: 10px 0px 10px 0px;
+    }
+
+
+}
+
+    
+@media only screen and (min-width : 480px) {
+
+
+
+}
+
+
+@media only screen and (min-width : 768px) {
+    
+    h1 {
+        font-size: 3.2em;
+    }
+
+    body {
+        font-size: 2em;
+    }     
+  
+    .btn {
+        border-left-width: 1px;
+        border-right-width: 1px;
+        width: 40%;
+        height: 68px;
+    }
 
 }
 
