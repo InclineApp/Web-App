@@ -506,6 +506,28 @@ section  {
 .button {
   width: 180px;
   height: 50px;
+  background: none;
+  position: relative;
+  /*bottom: 0;*/
+  margin: 0 auto;
+  margin-bottom: -25px;
+  border-radius: 8px;
+  color: #1B98E0;
+  text-align: center;
+  font-size: 0.875em;
+  cursor: pointer;
+  border: solid #1B98E0 1px;
+  transition: background .5s ease;
+}
+
+.button:hover {
+  background: #1B98E0;
+  color: #fff;
+}
+
+.button-invert {
+  width: 180px;
+  height: 50px;
   background: #1B98E0;
   position: relative;
   /*bottom: 0;*/
@@ -516,8 +538,16 @@ section  {
   text-align: center;
   font-size: 0.875em;
   cursor: pointer;
-
+  transition: background .5s ease;
+  border: solid #1B98E0 1px;
 }
+
+.button-invert:hover {
+  border: solid #1B98E0 1px;
+  background: none;
+  color: #1B98E0;
+}
+
 
 /*---!END - what section style---*/
 
@@ -852,6 +882,8 @@ section  {
   }
 
 
+
+
 }
 
 @media (max-width: 359px) {
@@ -865,6 +897,55 @@ section  {
 
 
 /*---!END - filter section style---*/
+
+.lths-icon {
+  margin: 0 auto;
+  max-width: 225px;
+  width: 100%;
+}
+
+.btn-group {
+  display: inline-block;
+  position: relative;
+  margin: 0px auto 50px auto ;
+}
+
+.appstore {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  display: inline-block;
+  float: left;
+}
+
+.apple-icon {
+  max-width: 22.5px;
+  height: 100%;
+  width: 100%;
+  margin-right: 10px;
+}
+
+.btn-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.seeform {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  display: inline-block;
+  background: #1B98E0;
+  border: 0px;
+  float: left;
+  color: #fff;
+}
+
+.seeform:hover {
+  background: transparent;
+  color: #1B98E0;
+  border: 1px solid #1B98E0;
+}
 
 /****media queries for naviagation****/
 
@@ -894,6 +975,12 @@ section  {
 
   #swipe-info {
     display: block;
+  }
+
+  .lths-icon {
+    margin: 0 auto;
+    max-width: 180px;
+    width: 100%;
   }
 
 }

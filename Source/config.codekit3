@@ -55,6 +55,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/apple.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/apple.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/arrow-rev.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -285,6 +295,14 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/lths.png": {
+		"ft": 32768,
+		"iS": 82611,
+		"oA": 0,
+		"oAP": "\/img\/lths.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/phones-diagram.png": {
 		"ft": 32768,
 		"iS": 12320,
@@ -407,6 +425,15 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/js\/detectmobilebrowser-min.js",
+		"oF": 1,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/future-function.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/js\/future-function-min.js",
 		"oF": 1,
 		"sC": 1,
 		"tS": 0
