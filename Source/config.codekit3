@@ -7,7 +7,7 @@
 		"uuidString": "11D06973-2731-4394-B846-26275B7B750A"
 		}
 	],
-"creatorBuild": "25428",
+"creatorBuild": "25479",
 "files": {
 	"\/css\/main-min.css": {
 		"aP": 0,
@@ -194,6 +194,22 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/img\/favicon.jpg": {
+		"ft": 16384,
+		"iS": 1330,
+		"oA": 0,
+		"oAP": "\/img\/favicon.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/favicon.png": {
+		"ft": 32768,
+		"iS": 1999,
+		"oA": 0,
+		"oAP": "\/img\/favicon.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/img\/github.svg": {
 		"ft": 2097152,
@@ -416,15 +432,6 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/js\/about-function-min.js",
-		"oF": 1,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/detectmobilebrowser.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/js\/detectmobilebrowser-min.js",
 		"oF": 1,
 		"sC": 1,
 		"tS": 0
@@ -993,6 +1000,10 @@
 			"active": 0,
 			"optionString": "{'properties': 'always'}"
 			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
 		"class-methods-use-this": {
 			"active": 0,
 			"optionString": "{'exceptMethods': []}"
@@ -1156,6 +1167,10 @@
 		"max-statements": {
 			"active": 0,
 			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
 			},
 		"multiline-ternary": {
 			"active": 0,
@@ -1521,6 +1536,10 @@
 			"active": 0,
 			"optionString": "'except-parens'"
 			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-script-url": {
 			"active": 0,
 			"optionString": ""
@@ -1752,6 +1771,10 @@
 		"radix": {
 			"active": 0,
 			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-jsdoc": {
 			"active": 0,
@@ -2585,6 +2608,10 @@
 			},
 		"space-colon": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"toplevel": {

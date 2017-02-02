@@ -446,7 +446,8 @@ section {
 /*---!END - intro section style---*/
 /*---!START - what section style---*/
 #what-row,
-#how-row {
+#how-row
+#continue-row {
   background: #fff; }
 
 #mt {
@@ -992,3 +993,7 @@ section {
   .col-3 {
     order: 2;
   }*/ }
+
+#continue-row,
+#how-row {
+  background: white; }
